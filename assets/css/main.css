@@ -3002,7 +3002,7 @@ input, select, textarea {
 		}
 
 		div.header-icon::before {
-			content:url(images/test-tube-icon.png);
+			content:url("../images/test-tube-icon.png");
 		}​
 
 
