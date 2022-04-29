@@ -3088,6 +3088,7 @@ input, select, textarea {
 
 	.header-icon {
 		text-align: center;
+		max-width: 100px;
 	}
 
 	body.is-preload #header .inner {
