@@ -3001,6 +3001,10 @@ input, select, textarea {
 			border-color: #ffffff;
 		}
 
+		#header .icon.major {
+			color: #ffffff;
+		}
+
 		#header h1 {
 			margin: 0;
 		}
@@ -3081,6 +3085,10 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 		}
+
+	.header-icon {
+		text-align: center;
+	}
 
 	body.is-preload #header .inner {
 		-moz-transform: scale(1.05);
