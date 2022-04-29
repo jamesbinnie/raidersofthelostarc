@@ -5,17 +5,17 @@ dataLayer = window.dataLayer || [];
 hero_cta_selector.addEventListener('click', function(){
     dataLayer.push({
     'event': 'ga_click',
-    'event_category': 'Button',
-    'event_action': 'Click',
-    'event_label': "Hero CTA",
+    'event_category': 'button',
+    'event_action': 'click',
+    'event_label': "hero_cta",
   });
 });
 
 hero_cta_selector.addEventListener('mouseover', function(){
     dataLayer.push({
     'event': 'ga_hover',
-    'event_category': 'Button',
-    'event_action': 'Hover',
-    'event_label': "Hero CTA",
+    'event_category': 'button',
+    'event_action': 'hover',
+    'event_label': "hero_cta",
   });
 });
