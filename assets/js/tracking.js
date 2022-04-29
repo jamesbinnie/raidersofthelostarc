@@ -4,7 +4,7 @@ dataLayer = window.dataLayer || [];
 
 hero_cta_selector.addEventListener('click', function(){
     dataLayer.push({
-    'event': 'gaClick',
+    'event': 'ga_click',
     'event_category': 'Button',
     'event_action': 'Click',
     'event_label': "Hero CTA",
@@ -13,7 +13,7 @@ hero_cta_selector.addEventListener('click', function(){
 
 hero_cta_selector.addEventListener('mouseover', function(){
     dataLayer.push({
-    'event': 'gaClick',
+    'event': 'ga_hover',
     'event_category': 'Button',
     'event_action': 'Hover',
     'event_label': "Hero CTA",
