@@ -3001,9 +3001,10 @@ input, select, textarea {
 			border-color: #ffffff;
 		}
 
-		#header .icon.major {
-			color: #ffffff;
-		}
+		div.header-icon::before {
+			content:url(images/test-tube-icon.png);
+		}​
+
 
 		#header h1 {
 			margin: 0;
