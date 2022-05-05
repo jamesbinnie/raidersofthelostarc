@@ -53,12 +53,65 @@
 						</div>
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h2>Lorem ipsum dolor adipiscing<br />
-								amet dolor consequat</h2>
+								<h2>Here is a form, enjoy!</h2>
 							</header>
-							<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
-							<p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-							<p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+							<!-- FORM START -->
+							<div class="rendered-form">
+							    <div class="formbuilder-date form-group field-date-field">
+								<label for="date-field" class="formbuilder-date-label">Select a date</label>
+								<input type="date" class="form-control" name="date-field" access="false" id="date-field">
+							    </div>
+							    <div class="formbuilder-text form-group field-some-words">
+								<label for="some-words" class="formbuilder-text-label">Fill this with a couple of words</label>
+								<input type="text" class="form-control" name="some-words" access="false" id="some-words">
+							    </div>
+							    <div class="formbuilder-radio-group form-group field-choose-radio">
+								<label for="choose-radio" class="formbuilder-radio-group-label">Choose one of the following</label>
+								<div class="radio-group">
+								    <div class="formbuilder-radio">
+									<input name="choose-radio" access="false" id="choose-radio-0" value="option-1" type="radio">
+									<label for="choose-radio-0">This one</label>
+								    </div>
+								    <div class="formbuilder-radio">
+									<input name="choose-radio" access="false" id="choose-radio-1" value="option-2" type="radio">
+									<label for="choose-radio-1">Or this one</label>
+								    </div>
+								    <div class="formbuilder-radio">
+									<input name="choose-radio" access="false" id="choose-radio-2" value="option-3" type="radio">
+									<label for="choose-radio-2">Or maybe this one</label>
+								    </div>
+								</div>
+							    </div>
+							    <div class="formbuilder-checkbox-group form-group field-multi-select">
+								<label for="multi-select" class="formbuilder-checkbox-group-label">Choose as many of these as you like</label>
+								<div class="checkbox-group">
+								    <div class="formbuilder-checkbox">
+									<input name="multi-select[]" access="false" id="multi-select-0" value="option-1" type="checkbox">
+									<label for="multi-select-0">This one</label>
+								    </div>
+								    <div class="formbuilder-checkbox">
+									<input name="multi-select[]" access="false" id="multi-select-1" value="option-2" type="checkbox">
+									<label for="multi-select-1">And this one</label>
+								    </div>
+								    <div class="formbuilder-checkbox">
+									<input name="multi-select[]" access="false" id="multi-select-2" value="option-3" type="checkbox">
+									<label for="multi-select-2">And also this one</label>
+								    </div>
+								    <div class="formbuilder-checkbox">
+									<input name="multi-select[]" access="false" id="multi-select-3" value="option-4" type="checkbox">
+									<label for="multi-select-3">And this one too</label>
+								    </div>
+								</div>
+							    </div>
+							    <div class="formbuilder-textarea form-group field-anything-else">
+								<label for="anything-else" class="formbuilder-textarea-label">Anything else?</label>
+								<textarea type="textarea" class="form-control" name="anything-else" access="false" maxlength="140" rows="2" id="anything-else"></textarea>
+							    </div>
+							    <div class="formbuilder-button form-group field-button-1651725764591">
+								<button type="submit" class="button wide primary btn-default btn" name="button-1651725764591" access="false" style="default" id="button-1651725764591">Submit form</button>
+							    </div>
+							</div>
+							<!-- FORM END -->
 						</div>
 					</div>
 				</div>
