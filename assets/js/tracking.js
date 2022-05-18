@@ -4,7 +4,7 @@ dataLayer = window.dataLayer || [];
 
 hero_cta_selector.addEventListener('click', function(){
     var hero_cta_selector_classes = hero_cta_selector.className;
-    var hero_cta_selector_classes = hero_cta_selector.textContent;
+    var hero_cta_selector_text = hero_cta_selector.textContent;
     dataLayer.push({
     'event': 'ga_click',
     'event_category': 'button',
@@ -17,7 +17,7 @@ hero_cta_selector.addEventListener('click', function(){
 
 hero_cta_selector.addEventListener('mouseover', function(){
     var hero_cta_selector_classes = hero_cta_selector.className;
-    var hero_cta_selector_classes = hero_cta_selector.textContent;
+    var hero_cta_selector_text = hero_cta_selector.textContent;
     dataLayer.push({
     'event': 'ga_hover',
     'event_category': 'button',
