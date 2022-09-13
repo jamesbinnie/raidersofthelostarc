@@ -2,6 +2,10 @@ var hero_cta_selector = document.querySelector('#header > div > ul > li > a')
 
 dataLayer = window.dataLayer || [];
 
+dataLayer.push({
+    'user_brand': 'Binnie Inc.'
+});
+
 hero_cta_selector.addEventListener('click', function(){
     var hero_cta_selector_classes = hero_cta_selector.className;
     var hero_cta_selector_text = hero_cta_selector.textContent;
