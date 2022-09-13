@@ -2,7 +2,8 @@ var hero_cta_selector = document.querySelector('#header > div > ul > li > a')
 
 dataLayer = window.dataLayer || [];
 
-dataLayer.push({
+window.dataLayer.push({
+    'event': 'set_brand',
     'user_brand': 'Binnie Inc.'
 });
 
