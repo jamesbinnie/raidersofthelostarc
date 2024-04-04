@@ -12,6 +12,9 @@ html, body{
 .intro{
 	font-size:4em;
 }
+.copyright{
+	font-size:0.7em;
+}
 .max { 
     display: block;
     width: 860px;
